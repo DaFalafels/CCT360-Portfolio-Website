@@ -1,4 +1,4 @@
-# CCT360-Portfolio-Website
+# CCT360 Portfolio Website
 This is a portfolio website I created for my CCT360 Intermediate Web Design Course at Sheridan College.
 
 This project is a portfolio website containing a videography section with some of my videos that were made 
