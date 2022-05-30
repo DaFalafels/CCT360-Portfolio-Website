@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Photography</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.3.1.css" rel="stylesheet">
+	<!-- Custom Stylesheet -->
+	<link href="css/custom_stylesheet.css" rel="stylesheet">
+  </head>
+  <body class="bg-warning">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark nav-margin">
+      <a class="navbar-brand" href="#">O.K.</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item"> <a class="nav-link" href="index.html">Home</a> </li>
+          <li class="nav-item active"> <a class="nav-link" href="#">Photography <span class="sr-only">(current)</span></a> </li>
+          <li class="nav-item"> <a class="nav-link" href="videography.html">Videography</a> </li>
+          <li class="nav-item"> <a class="nav-link" href="about_me.html">About Me</a> </li>
+		  <li class="nav-item"> <a class="nav-link" href="contact_me.html">Contact Me</a> </li>
+        </ul>
+      </div>
+    </nav>
+    <section class="header-margin">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <!-- This picture below is owned by myself, Omar Kozachi -->
+            <img class="img-thumbnail image-margin" alt="Omar Shooting His Canon 1100D DSLR" style="width: 200px; height: 200px;" src="images/omar-shooting.JPG" data-holder-rendered="true">
+            <h1>Omar Kozachi</h1>
+            <h5 class="display-4">My Portfolio Website</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 mb-4 mt-2 text-left">
+            <p>&nbsp;</p>
+            <h1 class="fancy-font">PHOTOGRAPHY</h1>
+            <p>&nbsp;</p>
+            <h4 class="font-weight-bold">My Personal Top 8 Photos:</h4>
+          </div>
+          <div class="col-12">
+            <!-- The Carousel code below has been edited, but borrowed originally from: https://www.w3schools.com/bootstrap4/bootstrap_ref_js_carousel.asp -->
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <ul class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+                <li data-target="#myCarousel" data-slide-to="4"></li>
+                <li data-target="#myCarousel" data-slide-to="5"></li>
+                <li data-target="#myCarousel" data-slide-to="6"></li>
+                <li data-target="#myCarousel" data-slide-to="7"></li>
+              </ul>
+              <!-- All 8 of these pictures below are owned by myself, Omar Kozachi -->
+              <div class="carousel-inner carousel-border carousel-margin">
+                <div class="carousel-item active">
+                  <img src="images/night-timelapse.JPG" alt="Nighttime Dubai Timelapse">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/night-buildings.JPG" alt="Nighttime Dubai Buildings">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/white-flower.JPG" alt="Dubai White Flower">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/yellow-flower.JPG" alt="Dubai Yellow Flower">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/sand-footsteps.JPG" alt="Dubai Sand Footsteps">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/urban-bottles.JPG" alt="Dubai Urban Bottles">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/night-water.JPG" alt="Nighttime Dubai Water">
+                </div>
+                <div class="carousel-item">
+                  <img src="images/night-bridge.JPG" alt="Nighttime Dubai Bridge">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+              </a>
+              <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-12 mb-4 mt-2 text-left">
+            <h5 class="font-italic">Camera Used: Canon 1100D</h5>
+            <h5 class="font-italic">Location: Dubai, UAE (United Arab Emirates)</h5>
+            <h5 class="font-italic">Year: 2011-2013</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="text-center">
+      <div class="jumbotron jumbotron-fluid footer-margin bg-dark">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-light lead"><a href="#" class="text-light font-italic" data-toggle="tooltip" title="Back to Top">Omar'sPortfolioWebsite</a> is a Portfolio Website done as an project for the CCT360 course taught at Sheridan College.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+	<script src="js/jquery-3.3.1.min.js"></script> 
+    <!-- Include all compiled plugins (below), or include individual files as needed --> 
+    <script src="js/popper.min.js"></script> 
+    <script src="js/bootstrap-4.3.1.js"></script>
+    <!-- Extra scripts for specific bootstrap classes -->
+    <script>
+    // The carousel script below has been borrowed from: https://www.w3schools.com/bootstrap4/bootstrap_ref_js_carousel.asp
+    $(document).ready(function(){
+      $("#myCarousel").carousel();
+    
+      $(".item1").click(function(){
+        $("#myCarousel").carousel(0);
+      });
+      $(".item2").click(function(){
+        $("#myCarousel").carousel(1);
+      });
+      $(".item3").click(function(){
+        $("#myCarousel").carousel(2);
+      });
+    
+      $(".carousel-control-prev").click(function(){
+        $("#myCarousel").carousel("prev");
+      });
+      $(".carousel-control-next").click(function(){
+        $("#myCarousel").carousel("next");
+      });
+    });
+    </script>
+    <script>
+    // The Tooltip script below has been borrowed from: https://www.w3schools.com/bootstrap4/bootstrap_tooltip.asp
+    $(document).ready(function(){
+      $('[data-toggle="tooltip"]').tooltip();   
+    });
+    </script>
+  </body>
+</html>
